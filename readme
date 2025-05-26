@@ -1,0 +1,41 @@
+This is a record of my project for my database systems class, Elijah community hospital. The directions are summarized by chatgpt
+
+
+
+ Elijah Community Hospital Database Project
+
+You have been asked to develop a database system for Elijah Community Hospital (ECH). ECH is a small local community hospital with approximately 125 beds. The goal is to provide high-quality, cost-effective healthcare services for the community in North Georgia.
+
+⸻
+
+📚 Project Requirements:
+
+Entities and Attributes:
+
+You must create an ER/EER diagram and SQL database for the following entities:
+	•	PATIENT: PatientID, Name, DOB, Age, Gender, Address, Email, Phone (one or two)
+	•	BED: BedNumber, PatientID
+	•	PERSONNEL: PersonnelID, Name, Phone, Email (one or two), Address, Hire-date, Position
+	•	DEPARTMENT: DepartmentCode, DepartmentName
+	•	TREATMENT: TreatmentCode, TreatmentDescription, TreatmentCost
+	•	TEST: TestCode, TestDescription, TestCost
+	•	Add new attributes if necessary.
+
+Associative Entities Required:
+	•	Patient-Test
+	•	Patient-Treatment
+	•	Patient-Personnel
+
+⸻
+
+✅ Normalization & ER/EER Diagrams:
+	•	Draw ER/EER diagram using tools such as Dia or Visio.
+	•	Normalize the tables up to the 3rd Normal Form (3NF).
+
+⸻
+
+⚙️ SQL Implementation:
+
+Use MS SQL Server Management Studio and commands:
+	•	CREATE TABLE for table definitions.
+	•	INSERT INTO to populate each table with realistic data (at least 3 rows per table).
