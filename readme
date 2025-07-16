@@ -39,3 +39,22 @@ Associative Entities Required:
 Use MS SQL Server Management Studio and commands:
 	•	CREATE TABLE for table definitions.
 	•	INSERT INTO to populate each table with realistic data (at least 3 rows per table).
+
+📊 R Integration for Data Analysis:
+
+Prerequisites:
+1. Install R from https://cran.r-project.org/
+2. Install RStudio (recommended) from https://posit.co/download/rstudio-desktop/
+3. Required R packages: DBI, odbc, tidyverse, lubridate
+
+The hospital_analysis.R script provides:
+- Patient demographics visualization
+- Treatment cost analysis
+- Test results distribution analysis
+
+To use the R script:
+1. Open hospital_analysis.R in RStudio
+2. Update the database connection parameters with your SQL Server details
+3. Run the script to generate visualizations and analyses
+
+Note: Ensure you have appropriate ODBC drivers installed for SQL Server connectivity.
